@@ -15,7 +15,7 @@ namespace AcumatikaConsoleApp
 
             try
             {
-                client.Login("amin", "foooo");
+                client.Login("admin", "aminsh");
                 Console.WriteLine("Logged in");
 
                 var customer = client.GetList<Customer>(top: 1, select: "CustomerID").Single();
